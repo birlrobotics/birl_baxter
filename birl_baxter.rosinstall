@@ -58,7 +58,10 @@
     local-name: birl_sensors
     uri: https://github.com/birlrobotics/birl_sensors.git
     version: master
-
+- git:
+    local-name: birl_baxter_wiki
+    uri: https://github.com/birlrobotics/birl_baxter.wiki.git
+    version: master
 
 ##############################################
 # In birlBaxter_manipulation there are a number of sub folders that are git folders/submodules. Please update those by hand.
