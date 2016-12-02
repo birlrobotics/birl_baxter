@@ -1,0 +1,66 @@
+- git: 
+    local-name: birl_baxter
+    uri: https://github.com/birlrobotics/birl_baxter.git
+    version: master
+- git:
+    local-name: birl_baxter_common
+    uri: https://github.com/birlrobotics/birl_baxter_common.git
+    version: master
+- git: 
+    local-name: birl_baxter_controllers 
+    uri: https://github.com/birlrobotics/birl_baxter_controllers.git
+    version: master
+- git:
+    local-name: birl_baxter_demos
+    uri: https://github.com/birlrobotics/birl_baxter_demos.git
+    version: master
+- git:
+    local-name: birl_baxter_examples
+    uri: github.com/birlrobotics/birl_baxter_examples.git 
+    version: master
+- git: 
+    local-name: birl_baxter_executive
+    uri: https://github.com/birlrobotics/birl_baxter_executive.git 
+    version: master
+- git:
+    local-name: birl_baxter_hands
+    uri: https://github.com/birlrobotics/birl_baxter_hands.git
+    version: master
+- git:
+    local-name: birl_baxter_images
+    uri: https://github.com/birlrobotics/birl_baxter_images.git
+    version: master
+- git:
+    local-name: birl_baxter_matlab
+    uri: https://github.com/birlrobotics/birl_baxter_matlab.git
+    version: master
+- git:
+    local-name: birl_baxter_msgs
+    uri: https://github.com/birlrobotics/birl_baxter_msgs.git
+    version: master
+- git:
+    local-name: birl_baxter_recorded_motions
+    uri: https://github.com/birlrobotics/birl_baxter_recorded_motions.git
+    version: master
+- git:
+    local-name: birl_baxter_tools
+    uri: https://github.com/birlrobotics/birl_baxter_tools.git
+    version: master
+- git:
+    local-name: birl_baxter_vision
+    uri: https://github.com/birlrobotics/birl_baxter_vision.git
+    version: master
+- git:
+    local-name: birl_baxter_worlds
+    uri: https://github.com/birlrobotics/birl_baxter_worlds.git
+    version: master
+- git:
+    local-name: birl_sensors
+    uri: https://github.com/birlrobotics/birl_sensors.git
+    version: master
+
+
+##############################################
+# In birlBaxter_manipulation there are a number of sub folders that are git folders/submodules. Please update those by hand.
+##############################################
+
