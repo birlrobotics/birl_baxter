@@ -16,7 +16,7 @@
     version: master
 - git:
     local-name: birl_baxter_examples
-    uri: github.com/birlrobotics/birl_baxter_examples.git 
+    uri: https://github.com/birlrobotics/birl_baxter_examples.git 
     version: master
 - git: 
     local-name: birl_baxter_executive
