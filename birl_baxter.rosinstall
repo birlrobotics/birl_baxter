@@ -2,10 +2,6 @@
     local-name: birl_baxter
     uri: https://github.com/birlrobotics/birl_baxter.git
     version: master
-- git:
-    local-name: birl_baxter_common
-    uri: https://github.com/birlrobotics/birl_baxter_common.git
-    version: master
 - git: 
     local-name: birl_baxter_controllers 
     uri: https://github.com/birlrobotics/birl_baxter_controllers.git
