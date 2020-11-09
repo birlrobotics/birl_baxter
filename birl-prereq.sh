@@ -2,30 +2,36 @@
 
 # Install the prerequisites for the ROS By Example code, Volume 2
 
-sudo apt-get install ros-indigo-arbotix ros-indigo-openni-camera \
-ros-indigo-dynamixel-motor ros-indigo-rosbridge-suite \
-ros-indigo-mjpeg-server ros-indigo-rgbd-launch \
-ros-indigo-moveit-full ros-indigo-moveit-ikfast \
-ros-indigo-turtlebot-* ros-indigo-kobuki-* ros-indigo-moveit-python \
-python-pygraph python-pygraphviz python-easygui \
-mini-httpd ros-indigo-laser-pipeline ros-indigo-ar-track-alvar \
-ros-indigo-laser-filters ros-indigo-hokuyo-node \
-ros-indigo-depthimage-to-laserscan \
-ros-indigo-gazebo-ros ros-indigo-gazebo-ros-pkgs \
-ros-indigo-gazebo-msgs ros-indigo-gazebo-plugins \
-ros-indigo-gazebo-ros-control ros-indigo-cmake-modules \
-ros-indigo-kobuki-gazebo-plugins ros-indigo-kobuki-gazebo \
-ros-indigo-smach ros-indigo-smach-ros ros-indigo-grasping-msgs \
-ros-indigo-executive-smach ros-indigo-smach-viewer \
-ros-indigo-robot-pose-publisher ros-indigo-tf2-web-republisher \
-ros-indigo-move-base-msgs ros-indigo-fake-localization \
-graphviz-dev libgraphviz-dev gv python-scipy liburdfdom-tools \
-ros-indigo-laptop-battery-monitor ros-indigo-ar-track-alvar* \
-ros-indigo-map-server ros-indigo-move-base* \
-ros-indigo-simple-grasping ros-indigo-orocos-kdl \
-ros-indigo-orocos-kinematics-dynamics \
-ros-indigo-orocos-toolchain ros-indigo-python-orocos-kdl \
-ros-indigo-ar-sys ros-indigo-ar-track-alvar ros-indigo-ar-track-alvar-msgs \
-liblapack-dev ros-indigo-pr2-controller* libnlopt* ros-indigo-moveit-* \
-ros-indigo-pr2-mechanism* liblapack-dev libblas3gf ros-indigo-trac-ik*
-
+sudo apt-get install ros-noetic-openni2-camera \
+ros-noetic-dynamixel-sdk ros-noetic-rosbridge-suite \
+ros-noetic-rgbd-launch \
+ros-noetic-turtlebot-* \
+mini-httpd ros-noetic-laser-pipeline \
+ros-noetic-laser-filters ros-noetic-hokuyo3d \
+ros-noetic-gazebo-ros ros-noetic-gazebo-ros-pkgs \
+ros-noetic-gazebo-msgs ros-noetic-gazebo-plugins \
+ros-noetic-gazebo-ros-control ros-noetic-cmake-modules \
+ros-noetic-smach ros-noetic-smach-ros \
+ros-noetic-executive-smach ros-noetic-smach-viewer \
+ros-noetic-move-base-msgs ros-noetic-fake-localization \
+graphviz-dev libgraphviz-dev gv python3-scipy liburdfdom-tools \
+ros-noetic-map-server ros-noetic-move-base* \
+liblapack3 libnlopt* ros-noetic-moveit-* \
+ros-noetic-pr2-mechanism* libblas3  \
+ros-noetic-kdl-* ros-noetic-soem ros-noetic-kobuki* \
+python3-pygraphviz python3-easygui \
+     
+#ros-noetic-trac-ik*
+# ros-noetic-pr2-controller*
+# ros-noetic-ar-track-alvar*
+# ros-noetic-ar-sys ros-noetic-orocos-kdl
+# ros-noetic-python-orocos-kdl
+# ros-noetic-orocos-kinematics-dynamics
+# ros-noetic-simple-grasping \
+# ros-noetic-orocos-toolchain
+# ros-noetic-laptop-battery-monitor  \
+# ros-noetic-tf2-web-republisher \
+# ros-noetic-robot-pose-publisher \
+# ros-noetic-grasping-msgs \
+# ros-noetic-kobuki-* \
+# ros-noetic-mjpeg-server \ 
