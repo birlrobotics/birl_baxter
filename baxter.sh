@@ -19,15 +19,15 @@ unset your_hostname
 # will be overwritten by any variables set here.
 
 # Specify Baxter's hostname
-baxter_hostname="011405P0002.local"
+baxter_hostname="011409P0024.local"
 
 # Set *Either* your computers ip address or hostname. Please note if using
 # your_hostname that this must be resolvable to Baxter.
 #your_ip="127.0.0.1" # 192.168.0.132
-your_hostname="baymax.local"
+your_hostname="baxter.local"
 
 # Specify ROS distribution (e.g. indigo, hydro, etc.)
-ros_version="indigo"
+ros_version="noetic"
 #-----------------------------------------------------------------------------#
 
 tf=$(tempfile)
